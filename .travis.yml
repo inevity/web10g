@@ -1,6 +1,6 @@
 language: c
 compiler: gcc
-# Change this to your needs
+before-install: sudo apt-get install bc -y 
 script: make -j8
 branches:
   only: rapier
